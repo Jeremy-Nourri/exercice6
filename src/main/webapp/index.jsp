@@ -7,7 +7,7 @@
 <body>
 <h1>Bienvenue sur l'application Produits</h1>
 <br/>
-<a href="" class="btn btn-primary">Se connecter</a>
+<a href="user/pagesignin" class="btn btn-primary">Se connecter</a>
 <br/>
 <a href="user/pagesignup" class="btn btn-primary">S'inscrire</a>
 

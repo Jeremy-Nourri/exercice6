@@ -5,10 +5,12 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import org.example.exercice6produitsj2ee.model.Product;
 import org.example.exercice6produitsj2ee.service.ProductService;
 
 import java.io.IOException;
 import java.time.LocalDate;
+import java.util.List;
 
 @WebServlet(name = "productServlet", value = "/product/*")
 public class ProductServlet extends HttpServlet {
@@ -44,7 +46,8 @@ public class ProductServlet extends HttpServlet {
     }
 
     private void listProduct(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
-        request.setAttribute("productList", productService.findAll());
+        List<Product> productList = productService.findAll();
+        request.setAttribute("productList", productList);
         request.getRequestDispatcher("/WEB-INF/productlist.jsp").forward(request, response);
     }
 

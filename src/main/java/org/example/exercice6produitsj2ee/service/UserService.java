@@ -12,9 +12,9 @@ public class UserService {
 
     private UserRepository userRepository = new UserRepository();
 
-    public User signUp (String email, String password, String name) {
+    public User signUp (String name, String email, String password) {
 
-        User user = new User(email, password, name);
+        User user = new User(name, email, password);
         User userFound = userRepository.findByEmail(email);
         System.out.println(userFound);
         if (userFound == null) {
@@ -35,6 +35,7 @@ public class UserService {
 
     public User signin(String email, String password) {
         User userFound = userRepository.findByEmail(email);
+        System.out.println(email);
         if (userFound != null) {
             if (password.equals(userFound.getPassword())){
                 return userFound;

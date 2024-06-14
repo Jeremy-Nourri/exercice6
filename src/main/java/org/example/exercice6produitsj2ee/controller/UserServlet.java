@@ -37,11 +37,6 @@ public class UserServlet extends HttpServlet {
             case "/signin":
                 signIn(request, response);
                 break;
-//            case "/findbyid":
-//                findById(request, response);
-//                break;
-//                case "/signin":
-//                signIn(request, response);
             default:
                 response.sendRedirect("index.jsp");
         }
@@ -61,7 +56,7 @@ public class UserServlet extends HttpServlet {
         String password = request.getParameter("inputPassword");
         String name = request.getParameter("inputName");
 
-        userService.signUp(email, password, name);
+        userService.signUp(name, email, password);
 
         response.sendRedirect("pagesignin");
 
@@ -81,7 +76,8 @@ public class UserServlet extends HttpServlet {
             request.getSession().setAttribute("user", user);
             HttpSession session = request.getSession();
             session.setAttribute("isLogged",true);
-            request.getRequestDispatcher("/WEB-INF/productlist.jsp");
+            response.sendRedirect(getServletContext().getContextPath()+"/product/list");
+
         } else {
             response.sendRedirect("index.jsp");
         }

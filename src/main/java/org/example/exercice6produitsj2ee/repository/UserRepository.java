@@ -56,6 +56,7 @@ public class UserRepository extends BaseRepository<User> {
 
     public User findByEmail(String email) {
         User user = null;
+        System.out.println(email);
         try {
             session = sessionFactory.openSession();
             user = (User) session.createQuery("from User where email = :email")

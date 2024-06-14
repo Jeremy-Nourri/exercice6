@@ -1,14 +1,9 @@
-<%@ page import="org.example.exercice6produitsj2ee.model.Product" %><%--
-  Created by IntelliJ IDEA.
-  User: Administrateur
-  Date: 13/06/2024
-  Time: 16:33
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="org.example.exercice6produitsj2ee.model.Product" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<
 
 <jsp:useBean id="productList" class="java.util.ArrayList<org.example.exercice6produitsj2ee.model.Product>" scope="request"/>
-<jsp:useBean id="user" class="org.example.exercice6produitsj2ee.model.User" scope="request">
+<jsp:useBean id="user" class="org.example.exercice6produitsj2ee.model.User" scope="request"/>
     <html>
     <head>
     <title>Liste des produits</title>
