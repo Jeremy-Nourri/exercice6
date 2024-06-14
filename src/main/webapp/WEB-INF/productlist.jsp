@@ -1,8 +1,7 @@
 <%@ page import="org.example.exercice6produitsj2ee.model.Product" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<
 
-<jsp:useBean id="productList" class="java.util.ArrayList<org.example.exercice6produitsj2ee.model.Product>" scope="request"/>
+<jsp:useBean id="productList" class="java.util.ArrayList" scope="request"/>
 <jsp:useBean id="user" class="org.example.exercice6produitsj2ee.model.User" scope="request"/>
     <html>
     <head>
@@ -23,7 +22,9 @@
             </tr>
     </thead>
     <tbody>
-    <% for (Product product : productList) {%>
+    <% for (Object obj : productList) {
+        Product product = (Product) obj;
+    %>
         <tr>
             <td><%= product.getReference() %></td>
             <td><%= product.getBrand() %></td>
