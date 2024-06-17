@@ -6,8 +6,6 @@ import org.example.exercice6produitsj2ee.exeption.WrongPasswordException;
 import org.example.exercice6produitsj2ee.model.User;
 import org.example.exercice6produitsj2ee.repository.UserRepository;
 
-import java.util.List;
-
 public class UserService {
 
     private UserRepository userRepository = new UserRepository();

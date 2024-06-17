@@ -1,18 +1,17 @@
 
 u
-java:S1948"-Make "userService" transient or serializable.(¶òÁÈùÿÿÿÿ8üÚÕ2J$560a8188-fb08-4b95-9be9-95ba04e1539d
+java:S1948"-Make "userService" transient or serializable.(¶òÁÈùÿÿÿÿ8üÚÕ2J$213fd479-a1ea-478c-91c8-544ddd0ff111
 •
-java:S1989"MHandle the following exception that could be thrown by "signUp": IOException.(‰‡ÊÉşÿÿÿÿ8şÚÕ2J$3f226d90-b967-4796-94c1-26f265c91d02
+java:S1989"MHandle the following exception that could be thrown by "signUp": IOException.(‰‡ÊÉşÿÿÿÿ8şÚÕ2J$bcf61630-9675-40e0-8f3b-fa578dfd0284
 §
-java:S1989 "dHandle the following exceptions that could be thrown by "signUpPage": ServletException, IOException.(˜¾ï8şÚÕ2J$c217ae60-73fb-4bb1-bfb9-c01de4236214
+java:S1989 "dHandle the following exceptions that could be thrown by "signUpPage": ServletException, IOException.(˜¾ï8şÚÕ2J$ecb954dc-72ec-4045-ba2a-c67508f741c3
 ¬
-java:S1989#"dHandle the following exceptions that could be thrown by "signInPage": ServletException, IOException.(ƒÍš‡ıÿÿÿÿ8şÚÕ2J$2c8ae0b0-e0f9-4f20-9f86-ac1b1a87c13d
+java:S1989#"dHandle the following exceptions that could be thrown by "signInPage": ServletException, IOException.(ƒÍš‡ıÿÿÿÿ8şÚÕ2J$378f9f7f-bcbf-4ce1-8c67-a656bd1e393d
 
-java:S1989&"MHandle the following exception that could be thrown by "signIn": IOException.(ÅÒÇû8şÚÕ2J$4995c335-c128-495d-acb1-4f99643d58d3
-ƒ	java:S125)"<This block of commented-out lines of code should be removed.(¼İÏåûÿÿÿÿ8şÚÕ2J$c1983709-c1e0-4b61-976f-b3bdcbc651d9
-›
-java:S1989."SHandle the following exception that could be thrown by "sendRedirect": IOException.(Šûßıÿÿÿÿ8şÚÕ2J$9e8a23ac-7f65-418a-a1b8-1f6cf0b511af
-§
-java:S19894"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(—ôÖ¢øÿÿÿÿ8€ÛÕ2J$14be6928-343f-4b8a-94c8-a1327416ec4f
-}
-java:S2441Q":Make "User" serializable or don't store it in the session.(úÆè“8‚ÛÕ2J$06f28497-0862-4a38-8f32-27c77232f574
+java:S1989&"MHandle the following exception that could be thrown by "signIn": IOException.(ÅÒÇû8şÚÕ2J$8759bb8e-6598-439a-99e3-0d0de0eaa94c
+u
+java:S1989)"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Šûßıÿÿÿÿ8ÉŸÇ§‚2
+
+java:S1989/"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(—ôÖ¢øÿÿÿÿ8ÊŸÇ§‚2
+W
+java:S2441L":Make "User" serializable or don't store it in the session.(úÆè“8ÎŸÇ§‚2

@@ -99,7 +99,7 @@ public class UserRepository extends BaseRepository<User> {
         try {
             session = sessionFactory.openSession();
             transaction = session.beginTransaction();
-            session.delete(user);
+            session.remove(user);
             transaction.commit();
         } catch (Exception e) {
             if (transaction != null) {

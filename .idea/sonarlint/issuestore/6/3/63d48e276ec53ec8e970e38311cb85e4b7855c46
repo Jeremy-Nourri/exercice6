@@ -1,13 +1,13 @@
 
-s
-java:S1948"0Make "productService" transient or serializable.(ô‚îŸ8‹éş2J$359335e6-9c7e-497a-a187-bce7c7466077
-“	java:S128"LEnd this switch case with an unconditional break, return or throw statement.(õ¼«ˆúÿÿÿÿ8éş2J$47690a2c-0f00-4b36-ad33-6e2a8b670172
-­
-java:S1989"eHandle the following exceptions that could be thrown by "listProduct": IOException, ServletException.(¾“Ğıÿÿÿÿ8éş2J$083bff7b-a2e3-4b08-9311-1491dc792a59
-”
-java:S1989"QHandle the following exception that could be thrown by "addProduct": IOException.(¤Ìÿ‡8éş2J$b9704bec-d52d-4363-97ca-3e88942fc1d4
-~	java:S125 "<This block of commented-out lines of code should be removed.(±¯€¤8éş2J$6bbb3cbe-3d21-4c1b-bbef-d6cc92150668
-›
-java:S1989%"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Šûßıÿÿÿÿ8éş2J$0b19cbd5-4fbc-4d5f-a42e-1ecc4bcaa84e
-§
-java:S1989+"_Handle the following exceptions that could be thrown by "doGet": IOException, ServletException.(—ôÖ¢øÿÿÿÿ8éş2J$4a2b43ca-24a1-48a0-99fe-58cc20e5233e
+M
+java:S1948"0Make "productService" transient or serializable.(ô‚îŸ8ÍÇ§‚2
+m	java:S128 "LEnd this switch case with an unconditional break, return or throw statement.(õ¼«ˆúÿÿÿÿ8ÑÇ§‚2
+‡
+java:S1989"eHandle the following exceptions that could be thrown by "listProduct": IOException, ServletException.(¾“Ğıÿÿÿÿ8ÑÇ§‚2
+n
+java:S1989!"QHandle the following exception that could be thrown by "addProduct": IOException.(¤Ìÿ‡8ÑÇ§‚2
+X	java:S125""<This block of commented-out lines of code should be removed.(±¯€¤8ÒÇ§‚2
+u
+java:S1989'"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Šûßıÿÿÿÿ8ÒÇ§‚2
+
+java:S1989-"_Handle the following exceptions that could be thrown by "doGet": IOException, ServletException.(—ôÖ¢øÿÿÿÿ8ÓÇ§‚2

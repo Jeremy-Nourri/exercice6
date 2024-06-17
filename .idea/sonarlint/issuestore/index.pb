@@ -33,8 +33,6 @@ O
 Tsrc/main/java/org/example/exercice6produitsj2ee/exeption/WrongPasswordException.java,f\d\fd991cef7de941970ec4c7eedbdf82b8281747fb
 R
 "src/main/webapp/WEB-INF/signup.jsp,6\f\6f6aa81d231f4e39df3a6022e6e040cacad8c46f
-U
-%src/main/webapp/WEB-INF/connexion.jsp,d\2\d2544d3687ef2d8ec7f0aaea2dc610a1fbf07ca3
 W
 'src/main/webapp/WEB-INF/productlist.jsp,0\3\03f76c40bc4410a33c54c5d9c1eff0d2ec5bfdba
 Å
@@ -72,3 +70,5 @@ w
 G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8\6\863e0292fd7e9b3e74dafd6cc01f73ba76346482
 Å
 Q.idea/sonarlint/securityhotspotstore/2/c/2c6c08a1271ad03903b7290423a0b2756118fdaf,f\b\fb90da82229710237f484507201a7aa204a60913
+W
+'src/main/webapp/WEB-INF/productform.jsp,3\e\3e8b63a6398c688a5b1f433c2d22025ccf41368b
