@@ -44,10 +44,6 @@ public class ProductRepository extends BaseRepository<Product> {
             session = sessionFactory.openSession();
             product = session.get(Product.class, id);
 
-            if (product == null) {
-               throw new NotFoundException("Product not found");
-            }
-
         } catch (Exception e) {
             e.printStackTrace();
 

@@ -1,5 +1,6 @@
 package org.example.exercice6produitsj2ee.service;
 
+import org.example.exercice6produitsj2ee.exeption.NotFoundException;
 import org.example.exercice6produitsj2ee.model.Product;
 import org.example.exercice6produitsj2ee.repository.ProductRepository;
 
@@ -16,26 +17,28 @@ public class ProductService  {
     }
 
     public Product findById(int id) {
-        return productRepository.findById(id);
-    }
-
-    public Product update(int id, String brand, String reference, LocalDate dateOfPurchase, double price, int stock) {
-        Product product = productRepository.findById(id);
-        if (product != null) {
-            product.setBrand(brand);
-            product.setReference(reference);
-            product.setDateOfPurchase(dateOfPurchase);
-            product.setPrice(price);
-            product.setStock(stock);
-            return productRepository.update(product);
+        Product productFound = productRepository.findById(id);
+        if (productFound != null ) {
+            return productFound;
         } else {
-            return null;
+            throw new NotFoundException("Product not found");
         }
     }
 
+    public Product update(int id, String brand, String reference, LocalDate dateOfPurchase, double price, int stock) {
+        Product productFound = productRepository.findById(id);
+        productFound.setBrand(brand);
+        productFound.setReference(reference);
+        productFound.setDateOfPurchase(dateOfPurchase);
+        productFound.setPrice(price);
+        productFound.setStock(stock);
+        return productRepository.update(productFound);
+    }
+
     public boolean delete(int id) {
-        Product product = productRepository.findById(id);
-        return productRepository.delete(product);
+        Product productFound = productRepository.findById(id);
+        productRepository.delete(productFound);
+        return true;
     }
 
     public List<Product> findAll() {

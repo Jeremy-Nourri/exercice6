@@ -1,5 +1,5 @@
 
-r	java:S106;"+Replace this use of System.out by a logger.(î¸ıÿÿÿÿ8¡âÃ‘2J$4dfe0852-ac24-4b51-87d4-3ade75bd9f37
 {
-java:S1874>"3Remove this use of "createQuery"; it is deprecated.(üºğ‰şÿÿÿÿ8×¯Ñ2J$765900b7-8e94-46c1-884c-b1914d5aa7db
-m	java:S106A"+Replace this use of System.out by a logger.(Ø¼¢ƒ8ŸÇ§‚2J$32232b76-74ee-4c1d-ab68-79b8fbe18d23
+java:S1874:"3Remove this use of "createQuery"; it is deprecated.(üºğ‰şÿÿÿÿ8×¯Ñ2J$5de88aa5-4118-41c8-b148-8dcf6dcf97f5
+œ
+java:S1128"YRemove this unused import 'org.example.exercice6produitsj2ee.exeption.NotFoundException'.(‚éÖ8îÊŠª‚2J$04361591-7ceb-49a8-b348-2baa91e3dc6f

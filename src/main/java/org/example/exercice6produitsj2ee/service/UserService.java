@@ -14,7 +14,6 @@ public class UserService {
 
         User user = new User(name, email, password);
         User userFound = userRepository.findByEmail(email);
-        System.out.println(userFound);
         if (userFound == null) {
             return userRepository.add(user);
         } else {
@@ -44,6 +43,4 @@ public class UserService {
             throw new NotFoundException("User not found");
         }
     }
-
-
 }

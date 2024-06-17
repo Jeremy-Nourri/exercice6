@@ -40,9 +40,6 @@ public class UserRepository extends BaseRepository<User> {
         try {
             session = sessionFactory.openSession();
             user = session.get(User.class, id);
-            if (user == null) {
-                throw new NotFoundException("User not found");
-            }
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -56,13 +53,11 @@ public class UserRepository extends BaseRepository<User> {
 
     public User findByEmail(String email) {
         User user = null;
-        System.out.println(email);
         try {
             session = sessionFactory.openSession();
             user = (User) session.createQuery("from User where email = :email")
                     .setParameter("email", email)
                     .uniqueResult();
-            System.out.println(user);
 
         } catch (Exception e) {
             e.printStackTrace();
